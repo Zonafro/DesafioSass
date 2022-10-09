@@ -1,0 +1,22 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap%27');
+$font-family-base: 'Dancing Script', cursive;
+$purple: #cf649a;
+
+@import"../node_modules/bootstrap/scss/bootstrap.scss";
+
+h1{
+    color:$purple;
+}
+.card-text { @extend .text-white;}
+
+.card-color{
+    background: black;
+}
+.card-body{
+    @extend .card-color;
+    a {@extend .text-white;}  
+}
+.btn{
+    background-color: $purple;
+}
